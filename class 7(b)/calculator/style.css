@@ -4,10 +4,42 @@
   }
   
   body {
-    width: 100vw;
     height: 100vh;
-    display: flex;
     justify-content: center;
-    align-items: center;
     font-family: sans-serif;
+    border: 2px solid blue;
   }
+  input{
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+  }
+  #buttons{
+      text-align: center;
+  }
+  #number-section{
+      text-align: center;
+  }
+  p{
+      display: inline;
+  }
+  .heading{
+      text-align: center;
+  }
+  button{
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+  }
+  #result{
+      border: 2px solid blue;
+      height: 40px;
+      width: 20%;
+      margin: auto;
+    }
+    span{
+        margin: 0 40%;
+        font-size: 20px;
+    }

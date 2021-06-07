@@ -11,18 +11,23 @@
 
 <body>
     <div class="main-container">
-        <div class="container" style="border: 2px solid blue;">
-            <span>First number</sapn>
-                <input type="number" placeholder="Enter first number" id="firstNumb">
-                <span>Second number</sapn>
-                    <input type="number" placeholder="Enter second number" id="secondNumb">
-                    <p>Calculate</p>
-                    <button onclick="addNumbers()">+</button>
-                    <button onclick="subtractNumbers()">-</button>
-                    <button onclick="multiplyNumbers()">x</button>
-                    <button onclick="divideNumbers()">÷</button>
-                    <p>Result</p>
-                    <input type="number">
+        <h1 class="heading">Calculator</h1>
+        <div class="container">
+            <div id="number-section">
+                <p>First number:</p>
+                <input type="number" id="firstNumber">
+                <p>Second number:</p>
+                <input type="number" id="secondNumber">
+            </div>
+            <h3 class="heading">Calculate</h3>
+            <div id="buttons">
+                <button onclick="addNumbers()">+</button>
+                <button onclick="subtractNumbers()">-</button>
+                <button onclick="multiplyNumbers()">x</button>
+                <button onclick="divideNumbers()">÷</button>
+            </div>
+            <h3 class="heading">Result</h3>
+            <div id="result"><span></span></div>
         </div>
     </div>
     <script src="app.js"></script>
